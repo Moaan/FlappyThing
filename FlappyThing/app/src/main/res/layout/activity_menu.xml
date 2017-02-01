@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/darkmountainsmenu">
+    
+    <TextView
+        android:layout_width="wrap_content" android:id="@+id/menuTitle"
+        android:layout_height="wrap_content" android:layout_marginBottom="60dp"
+        android:text="@string/app_name" android:textSize="50sp"
+        android:textColor="@color/dark_brown" android:textStyle="italic|bold"
+        android:textAlignment="center" android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <Button android:layout_width="wrap_content" android:id="@+id/playButton"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_below="@id/menuTitle" android:background="@color/dark_brown"
+        android:textColor="@android:color/white" android:text="@string/play_button"
+        android:layout_marginBottom="40dp" android:textSize="30sp" android:textStyle="bold"
+        android:onClick="startGame"></Button>
+    <TextView
+        android:layout_width="wrap_content" android:id="@+id/highScoreMessage"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_below="@id/playButton" android:textColor="@color/dark_brown"
+        android:textSize="30sp" android:textStyle="bold"
+        android:text="@string/highScore_message" />
+
+    <!--<ImageButton
+        android:layout_width="90dp" android:layout_height="50dp"
+        android:src="@drawable/play" android:onClick="startGame" android:background="@color/dark_brown"
+        android:layout_centerHorizontal="true" android:layout_below="@id/menuTitle"/>-->
+
+</RelativeLayout>

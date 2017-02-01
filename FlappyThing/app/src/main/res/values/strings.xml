@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flappy Thing</string>
+    <string name="hello_world">This is going to be awesome! </string>
+    <string name="action_settings">Settings</string>
+
+    <string name="play_button">PLAY</string>
+
+    <!-- In game strings -->
+    <string name="instruction">Touch to Jump</string>
+    <string name="game_over_message">Game Over</string>
+    <string name="play_again">Play Again</string>
+    <string name="score_message">Score:</string>
+    <string name="highScore_message">High Score:</string>
+</resources>
